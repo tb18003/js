@@ -1,0 +1,43 @@
+body{
+  background-color: #4287f5;
+}
+h1{
+  font-family: 'Arial';
+  font-size: 72;
+  color: white;
+}
+p{
+  font-family: 'Arial';
+  font-size: 26;
+  color: white;
+}
+input{
+  font-size: 20;
+  padding: 10px;
+  text-align: center;
+}
+button{
+  font-size: 20;
+  padding: 8px;
+  cursor: hand;
+  color: white;
+}
+.exit{
+  background-color: transparent;
+  align: right;
+  border-radius: 10px;
+  border-color : blue;
+  transition-duration: 0.4s;
+}
+.exit:hover{
+  background-color: blue;
+}
+#srch{
+  border-radius: 20px;
+  border-color: #34d2eb;
+  background-color: transparent;
+  transition-duration: 0.4s;
+}
+#srch:hover{
+  background-color: #34d2eb;
+}
